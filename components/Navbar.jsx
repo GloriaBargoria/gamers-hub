@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <h6 className={styles.logo}>Gameer's Hub.</h6>
+      <h6 className={styles.logo}>Gameer&apos;s Hub.</h6>
       <ul className={styles.links}>
         <li className={styles.navlink}>
           <Link href="/">Home</Link>
