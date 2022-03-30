@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link href="/shop">Shop</Link>
         </li>
         <li className={styles.navlink}>
-          <Link href="/cart">
+          <Link href="/cart" passHref>
             <p>Cart ({getItemsCount()})</p>
           </Link>
         </li>
