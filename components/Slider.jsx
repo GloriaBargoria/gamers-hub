@@ -1,6 +1,8 @@
-import React from 'react'
+import React , {useState} from 'react'
 
 const Slider = () => {
+    const [slideIndex, setSlideIndex] = useState(0);
+    
   return (
     <div>Slider</div>
   )
